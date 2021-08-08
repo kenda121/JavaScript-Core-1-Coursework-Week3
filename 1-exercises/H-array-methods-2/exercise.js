@@ -1,3 +1,6 @@
+.
+
+
 /*
   Array methods - .slice()
   ------------------------
@@ -15,9 +18,8 @@ var everyone = [
   "Swathi",
 ];
 
-var firstFive; // complete this statement
-var lastFive; // complete this statement
-
+var firstFive = everyone.slice(0,4);       
+var lastFive = everyone.slice(4,5);      
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
